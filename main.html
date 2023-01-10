@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Insert title here</title>
+    <!-- <script src="/game2/enemy.js"></script>
+    <script src="/game2/background.js"></script>
+    <script src="/game2/boy.js"></script>
+    <script src="/game2/gamecanvas.js"></script> -->
+    <script type="module" src="/game2/app.js"></script>
+    <!-- <script type="module" src="/game2/ex2-es6-module.js"></script> -->
+    <!-- <script src="/js/ex1=es6-var.js"></script> -->
+    <!-- <script>
+        let kor = 20
+        let eng = 20
+
+        let obj = {
+            kor:kor, eng, total() {
+                return this.kor + this.eng
+            }
+        }
+        function print(exam) {
+            let kor = exam.kor;
+            let eng =exam.eng;
+            let total = exam.total.bind(exam)
+            console.log(exam.kor)
+            console.log(exam.eng)
+            console.log(typeof exam.total)
+        }
+        print(obj)
+        //------------------------------------ 
+
+        let obj2 = {
+            kor, eng, total() {
+                return this.kor + this.eng
+            }
+        }
+        function print1(exam) {
+            let { kor, eng, aa = 7 } = exam //데이터만 가져올수있다. 함수()는 안된다.
+            console.log("kor:" + kor)
+            console.log("eng:" + eng)
+            console.log(aa)
+        }
+        print1(obj2)
+    </script> -->
+</head>
+
+<body>
+    <!-- <img src="./image/boy.png"> -->
+    <div  tabindex="0">test</div>
+    <img src="/image/background.png" alt="" id="bg" style="display: none;">
+    <img src="/game2/image/enemy.png" alt="" style="display: none;" id="enemy">
+    <img src="/image/boy.png" alt="" style="display: none;" id="boy">
+    <canvas tabindex="1" class="game-canvas" width="700" height="700"></canvas>
+</body>
+
+</html>
